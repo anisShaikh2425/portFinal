@@ -278,23 +278,31 @@ gap: 30px;
 
 /* media queries */
 @media (max-width:700px) {
+    .brand{
+        text-align: center;
+    }
     .photoDiv {
         margin: 0 auto;
         width: 50%;
     }
    .buttonsDiv{
-    position: absolute;
+    /* self learned top 0 solution */
+    top:0;
     bottom: 0;
     padding: 20px;
    }
+
+   
+
+}
+
+.bi-thermometer-sun{
+    font-size:2rem;
+    text-align: center;
+    color: yellow;
 }
 
 
 /* #ctrl @ to open a vs code on ryt side  */
 
 
-/* js styles */
-.userForm{
-    background-color: green;
-    color: red;
-}
