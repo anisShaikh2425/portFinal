@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: linear-gradient(to right, black, gray);
+    width: 100%;
+}
+
+.myNameText {
+    font-family: bold;
+
+}
+.brand{
+    color: white;
+    font-size: 1.2rem;
+}
+.navBar{
+    display: flex;
+    justify-content: right;
+    align-content: center;  
+}
+
+.infoDiv {
+    /* hieght auto helps in responsiveness  */
+    position: relative;
+    background-color: black;
+    width: 90%;
+    padding: 2% 4%;
+    height: auto;
+    margin: 100px auto;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* border-style: dashed; */
+}
+
+.about {
+    position: relative;
+    background-color: black;
+    width: 90%;
+    height: auto;
+    /* height: 400px; */
+    margin: 200px auto;
+    /* padding: 10px 30px; */
+    padding: 2% 4%;
+    /* background-color: yellow; */
+    border: 2px solid white;
+
+
+}
+
+.infoBusTextul {
+    list-style-type: square;
+    font-size: 1rem;
+    color: red;
+}
+
+.bText {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.bi-check-square {
+    color: green;
+
+}
+
+/* business div  */
+.businessAndFreelancer {
+    position: relative;
+    background-color: black;
+    width: 90%;
+    height: auto;
+    /* height: 400px; */
+    margin: 30px auto;
+    padding: 10px;
+    /* background-color: yellow; */
+    border: 2px solid white;
+}
+
+.busBtn {
+    background: linear-gradient(to right, violet, blue);
+    width: 200px;
+    border: 2px solid white;
+}
+
+.busText,
+.indText {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.indBtn {
+    background: linear-gradient(to right, violet, blue);
+    width: 200px;
+    border: 2px solid white;
+}
+
+.bfText {
+    color: white;
+}
+
+.businessDiv,
+.individualDiv {
+    /* border: 1px solid white; */
+    padding: 2px 3px;
+    /* background:linear-gradient(to right  , pink,  tomato); */
+    padding: 7px;
+
+}
+
+.plan {
+    text-align: center;
+    color: purple;
+}
+
+.busDivBtn {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.indDivBtn {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer {
+
+    position: relative;
+    background:linear-gradient(to right , white , lightgray);
+    padding: 10px;
+    /* height:70%   ; */
+    /* border: 2px solid white; */
+}
+
+.subscribe{
+    background-color: chartreuse;
+    color: black;
+}
+
+.projects {
+    position: relative;
+    padding: 2% 4%;
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    /* padding: 10px; */
+}
+
+.card {
+    border: 2px solid lightgray;
+    margin: 10px;
+}
+
+/* card  projectCard and link */
+.projectCard {
+    background: linear-gradient(to right, white, gray);
+}
+
+.pLink {
+    background: linear-gradient(to right, violet, blue);
+}
+
+/* photodiv and myprofile */
+.photoDiv, .midPhotoDiv{
+    /* gave flex to outer div photodiv and image came in mid */
+    display: flex;
+    justify-content: center;
+    
+}
+.myprofile {
+    /* border: 1px solid white; */
+    /* margin-left: 200px; */
+    border-radius: 5%;
+    width: 300px;
+    height: 380px;
+}
+
+/* about div */
+.helpText {
+    color: violet;
+    text-align: center;
+}
+
+.services {
+    margin-top: 80px;
+}
+
+.servicesPic {
+    border-radius: 100%;
+    /* margin-left: 200px; */
+    width: 300px;
+    height: 400px;
+}
+
+.servicesText {
+    color: white;
+}
+
+.bi-check2-all {
+    font-size: 30px;
+    color: yellow;
+}
+
+/* both buttons styles of infoDiv */
+.btnProject {
+    position: absolute;
+    bottom: 10px;
+    background: linear-gradient(to right, deeppink, aqua);
+    margin-left: 200px;
+}
+
+.btnContact {
+    background: linear-gradient(to right, deeppink, blue);
+    position: absolute;
+    bottom: 10px;
+}
+
+/* photo and text styles */
+/* .photoDiv {
+    float: right;
+} */
+
+
+/* make a div class text inside the infodiv for float options new discovery */
+.text,
+.text1 {
+
+    /* font-family: "Montaga", serif; */
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-family: "Nunito", sans-serif; */
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.4rem;
+
+}
+
+
+
+
+/* buttonsDiv  styles */
+.buttonsDiv {
+    display: flex;
+    justify-content: space-between;
+    /* width: 50%;
+    margin: 0 auto; */
+}
+
+.skills {
+    color: white;
+}
+
+.barRaiser {
+    margin: 20px;
+}
+
+/* .navSpace{
+    padding-left: 800px;
+    margin-left: 40px;
+} */
+
+.nav-link {
+    color: white;
+    font-size: 1rem;
+}
+
+
+.buttons2{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+/* media queries */
+@media (max-width:700px) {
+    .photoDiv {
+        margin: 0 auto;
+        width: 50%;
+    }
+   .buttonsDiv{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+   }
+}
+
+
+/* #ctrl @ to open a vs code on ryt side  */
+
+
+/* js styles */
+.userForm{
+    background-color: green;
+    color: red;
+}
